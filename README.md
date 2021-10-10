@@ -1,7 +1,5 @@
 # TypeScript
 
-Por definição ou aceito pela maioria como um superset para o JavaScript.
-
 #### Vantagens no Uso.
 
 * Adiciona tipagem estática.
@@ -14,17 +12,24 @@ Por definição ou aceito pela maioria como um superset para o JavaScript.
 * Curva de aprendizado em quem não tem conhecimento de tipagem estática.
 * Erros não são muitos claros.
 
-## Instalação
+## Instalação / Compilação Simples.
 
 
 * Instalação Global Via NPM.
 
-  ```
+```
 
-  npm install -g typescript
-
-  ```
+npm install -g typescript
 
 ```
 
+
+* Compilar código Ts apenas um arquivo watch fica escutando alterações no arquivo.
+
+tsc index.ts --watch
+
+* Criando arquivo tsConfig, onde iremos configurar varias configurações do TypeScript.
+
+```
+tsc --init
 ```
