@@ -63,3 +63,13 @@ cart = {
     key: "any"
 };
 
+// type Inference ao declarar um valor para variavel na sua inicialização não é necessário tipar essa variavel.
+let messageInferenceType = "Eu sou uma String";
+messageInferenceType = "Eu sou nova String";
+// messageInferenceType = 1; erro não aceito pelo typescpty mudar tipo da variavel
+
+// Neste exemplo o TypeScript sabe que (e) é um MouseEvent pelo parametro click informado anteriormente.
+window.addEventListener("click", (e) => {
+    console.log(e.target);
+} );
+

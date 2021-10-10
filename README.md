@@ -1,5 +1,8 @@
 # TypeScript
 
+
+Anotações criadas com base na playlist do curso [Willian Justen](https://youtube.com/playlist?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_https:/).
+
 #### Vantagens no Uso.
 
 * Adiciona tipagem estática.
