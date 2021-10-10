@@ -14,7 +14,6 @@
 
 ## Instalação / Compilação Simples.
 
-
 * Instalação Global Via NPM.
 
 ```
@@ -22,7 +21,6 @@
 npm install -g typescript
 
 ```
-
 
 * Compilar código Ts apenas um arquivo watch fica escutando alterações no arquivo.
 
@@ -33,3 +31,8 @@ tsc index.ts --watch
 ```
 tsc --init
 ```
+
+
+## Tipos em typeScript
+
+* Exemplificado os tipos em TypeScript no arquivo, [type.ts](type.ts)
