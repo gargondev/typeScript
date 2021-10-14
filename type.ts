@@ -73,3 +73,33 @@ window.addEventListener("click", (e) => {
     console.log(e.target);
 } );
 
+
+// Type Aliases e Union
+
+type Uid = number | string;
+
+
+
+function logDetails(uid: Uid, item: String){
+    console.log(`O produto tem o ${uid} e o titulo ${item}`);
+}
+
+logDetails(123, "testeDetails");
+logDetails("123", "TesteDetais String")
+
+
+logInfo(123, "testeInfo");
+logInfo("123", "TesteInfo String")
+
+
+function logInfo(uid: Uid, item: String){
+    console.log(`O usuário  tem o ${uid} e o nome ${item}`);
+}
+
+type Plataform =  'Windows' | 'Linuz' | 'MacOs' | 'ios';
+
+function renderPlat(plataform: Plataform){
+    return plataform;
+}
+
+renderPlat("Windows")
