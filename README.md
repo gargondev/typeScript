@@ -35,7 +35,10 @@ tsc index.ts --watch
 tsc --init
 ```
 
+* Para Criar executar o código compilar o ts comando Ctrl+Shift+B opção tsc:watch
+
 
 ## Tipos em typeScript
 
+* Boolean -> [boolean.ts](boolean.ts)
 * Exemplificado os tipos em TypeScript no arquivo, [type.ts](type.ts)
