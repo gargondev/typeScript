@@ -7,10 +7,6 @@ message = 'foo';
 let messageticks: string;
 messageticks = `bar ${isOpen}`;
 
-// number (int | float | hex | binary)
-let typeNumber: number;
-typeNumber = 0xff0
-
 // array ([]);
 let arrayString:string[];
 arrayString = ['foo', 'bar'];

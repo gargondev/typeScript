@@ -5,9 +5,6 @@ message = 'foo';
 // string Backticks aceita chamada de uma outra variavel mesmo com tipo diferentes dentro do backtickts será considerado tudo como string.
 let messageticks;
 messageticks = `bar ${isOpen}`;
-// number (int | float | hex | binary)
-let typeNumber;
-typeNumber = 0xff0;
 // array ([]);
 let arrayString;
 arrayString = ['foo', 'bar'];
